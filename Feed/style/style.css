@@ -1,0 +1,160 @@
+body {
+    display: flex;
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: #5935A1;
+}
+
+.parte1_container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.parte2_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-right: auto;
+}
+
+.parte3_container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: 2%;
+}
+.titulo_bairro {
+    display: flex;
+    text-align: center;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    color: white;
+    
+}
+
+.titulo_conversas {
+    text-align: center;
+}
+
+.container_conversas {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #D9D9D9;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+.conversas {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 45px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.container_feed {
+    font-weight: bolder;
+    margin-top: 4%;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.box_feed {
+    padding: 1.5%;
+}
+
+.titulo_feed{
+    display: flex;
+    align-items: center;
+    height: 10px;
+}
+
+.comentario_feed{
+    display: flex;
+}
+
+.espaco_feed{
+    display: flex;
+    width: 32px;
+    height: 32px;
+}
+
+
+.comentario_parte1{
+    display: flex;
+}
+
+.comentario_parte2{
+    display: flex;
+}
+
+.container_comentario {
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    margin: auto;
+    width: 100%;
+    border-radius: 20px;
+    height: 31%;
+}
+
+.header_comentario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header2_comentario{
+    margin-right: 10px;
+    text-align: center;
+}
+
+.header3_comentario{
+    width: 10%;
+}
+
+.body_comentario, input{
+    height: 50%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#input_comentario{
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.container_seguidores{
+    background-color: #D9D9D9;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.header_seguidores{
+    text-align: center;
+}
+
+.body_seguidores{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 3%;
+}
